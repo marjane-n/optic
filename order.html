@@ -207,12 +207,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--form-->
 <script language="JavaScript">
     <!--
+    function UploadImage(Params, CallBack) {
+        var Temp = new FormData();
+        for (var k in Params) {
+            console.log(k);
+            Temp.append(k, Params[k]);
+        }
+        var TCallBack = function (data) {
+            //TODO
+        };
+        $.ajax({
+            url: "/order.php/",
+            type: "POST",
+            data: Temp,
+            mimeTypes: "multipart/form-data",
+            contentType: false,
+            cache: false,
+            processData: false,
+            success: function (data) {
+                TCallBack(data);
+            }, error: function () {
+                console.log("failed");
+            }
+        });
+    }
     function formSubmitter(formTag, successmessageTag, failmessageTag) {
-        if(document.getElementById(successmessageTag).innerHTML == "") {
-            document.getElementById(successmessageTag).style.display = none;
+        if(document.getElementById("name").value.length == 0 || document.getElementById("email").value.length == 0 || document.getElementById("contact").value.length == 0 || document.getElementById("explanation").value.length == 0 || document.getElementById("datafile").value.length == 0) {
+            document.getElementById(failmessageTag).style.display = 'block';
+        }
+        else{
+            document.getElementById(successmessageTag).style.display = 'block';
+            var formparams = {name : document.getElementById("name").innerHTML, email : document.getElementById("email").innerHTML, contact : document.getElementById("contact").innerHTML, datafile : document.getElementById("name").innerHTML, explanation : document.getElementById("name").innerHTML};
+            UploadImage(formparams, setTimeout(function () {
+                document.getElementById(successmessageTag).style.display = 'none';
+                document.getElementById("name").value='';
+                document.getElementById("email").value='';
+                document.getElementById("contact").value='';
+                document.getElementById("datafile").value='';
+                document.getElementById("explanation").value='';
+            }, 3000))
         }
         setTimeout(function () {
-            document.getElementById(messageTag).innerHTML = "";
+            document.getElementById(failmessageTag).style.display = 'none';
         }, 3000);
         //document.forms[formTag].submit();
     }
@@ -237,8 +273,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <br/>
         <label> شرح سفارش </label>
         <textarea name="message" rows="10" cols="15" id="explanation"></textarea>
-        <p id="successmessage">سفارش با موفقیت ثبت شد. کارشناسان ما در اسرع وقت با شما تماس می گیرند.</p>
-        <p id="failmessage"> لطفا تمامی فیلدها را درست پر کنید. </p>
+        <p id="successmessage" style="display: none;">سفارش با موفقیت ثبت شد. کارشناسان ما در اسرع وقت با شما تماس می گیرند.</p>
+        <p id="failmessage" style="display: none;"> لطفا تمامی فیلدها را درست پر کنید. </p>
         <input type="button" value="ارسال" id="send"
                onclick="formSubmitter('orderform', 'successmessage', 'failmessage')">
     </form>

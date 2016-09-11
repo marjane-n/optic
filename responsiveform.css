@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+* {
+    /* With these codes padding and border does not increase it's width and gives intuitive style.*/
+  
+	-webkit-box-sizing: border-box;   
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Roboto Slab', serif;  
+}
+div#envelope{
+	width: 55%;
+	/*margin: 10px 30% 10px 25%;*/
+	margin: auto;
+	padding:10px 0;
+	border: 2px solid gray;
+	border-radius:10px;
+} 	
+form{
+	width:70%;
+	margin:4% 15%;
+}  
+header{
+	background-color: black;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 8px;
+	margin-top: -11px;
+	margin-bottom: -8px;
+	border-radius: 10px 10px 0 0;
+	color: aliceblue;
+} 
+
+/* Makes responsive fields.Sets size and field alignment.*/
+input[type=text]{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:100%;
+	padding: 15px;
+	border-radius:5px;
+	border:1px solid grey;
+}
+input#send
+{
+	margin-bottom: 20px;
+	width:100%;
+	padding: 15px;
+	border-radius:5px;
+	border:1px solid grey;
+	background-color: black;
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+}
+textarea{
+	width:100%;
+	padding: 15px;
+	margin-top: 10px;
+    border:1px solid grey;
+	border-radius:5px; 
+	margin-bottom: 20px;
+	resize:none;
+  } 
+input[type=text]:focus,textarea:focus {
+	border-color: black;
+}
+
+
+.SI-FILES-STYLIZED label.cabinet
+{
+	width: 79px;
+	height: 22px;
+	background: url(./images/search.png) 0 0 no-repeat;
+
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.SI-FILES-STYLIZED label.cabinet input.file
+{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}

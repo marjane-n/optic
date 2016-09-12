@@ -211,13 +211,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         var Temp = new FormData();
         for (var k in Params) {
             console.log(k);
+            console.log(Params[k]);
             Temp.append(k, Params[k]);
         }
         var TCallBack = function (data) {
-            //TODO
+            console.log(data);
         };
         $.ajax({
-            url: "/order.php/",
+            url: "/order.php",
             type: "POST",
             data: Temp,
             mimeTypes: "multipart/form-data",
@@ -232,25 +233,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
     }
     function formSubmitter(formTag, successmessageTag, failmessageTag) {
-        if(document.getElementById("name").value.length == 0 || document.getElementById("email").value.length == 0 || document.getElementById("contact").value.length == 0 || document.getElementById("explanation").value.length == 0 || document.getElementById("datafile").value.length == 0) {
+        if (document.getElementById("name").value.length == 0 || document.getElementById("contact").value.length == 0 || document.getElementById("explanation").value.length == 0) {
             document.getElementById(failmessageTag).style.display = 'block';
         }
-        else{
+        else {
             document.getElementById(successmessageTag).style.display = 'block';
-            var formparams = {name : document.getElementById("name").value, email : document.getElementById("email").value, contact : document.getElementById("contact").value, datafile : document.getElementById("name").value, explanation : document.getElementById("name").value};
-            UploadImage(formparams, setTimeout(function () {
+            var formparams = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                contact: document.getElementById("contact").value,
+                datafile: document.getElementById("datafile").files[0],
+                explanation: document.getElementById("explanation").value
+            };
+            UploadImage(formparams, function (data) {
+                console.log(data);
+                setTimeout(function () {
                 document.getElementById(successmessageTag).style.display = 'none';
                 document.getElementById("name").value='';
                 document.getElementById("email").value='';
                 document.getElementById("contact").value='';
-                document.getElementById("datafile").value='';
                 document.getElementById("explanation").value='';
-            }, 3000))
+                $(":file").filestyle('clear');
+
+                }, 3000);
+            })
         }
         setTimeout(function () {
             document.getElementById(failmessageTag).style.display = 'none';
         }, 3000);
-        //document.forms[formTag].submit();
     }
     // -->
 </script>
@@ -261,7 +271,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <p>لطفا به طور خلاصه و کامل فرم زیر را پر کنید</p>
     </header>
     <hr>
-    <form action="" name="orderform" method="post">
+    <form action="" name="orderform" method="post" enctype="multipart/form-data">
         <label>نام </label>
         <input type="text" id="name" name="name" width="100px;">
         <label>ایمیل </label>
@@ -273,13 +283,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <br/>
         <label> شرح سفارش </label>
         <textarea name="message" rows="10" cols="15" id="explanation"></textarea>
-        <p id="successmessage" style="display: none;">سفارش با موفقیت ثبت شد. کارشناسان ما در اسرع وقت با شما تماس می گیرند.</p>
-        <p id="failmessage" style="display: none;"> لطفا تمامی فیلدها را درست پر کنید. </p>
+        <div class="submitmessage">
+            <p id="successmessage" style="display: none;">سفارش با موفقیت ثبت شد. کارشناسان ما در اسرع وقت با شما تماس
+                می گیرند.</p>
+            <p id="failmessage" style="display: none;"> وارد کردن نام, شماره تماس و شرح سفارش الزامی است. </p>
+        </div>
         <input type="button" value="ارسال" id="send"
                onclick="formSubmitter('orderform', 'successmessage', 'failmessage')">
     </form>
     <script>
-        $(":file").filestyle({buttonText: "جستجوی فایل"});
+        $(":file").filestyle({buttonText: 'جستجوی فایل'});
     </script>
 </div>
 <!--form-->

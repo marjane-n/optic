@@ -68,6 +68,31 @@ input[type=text]:focus,textarea:focus {
 	border-color: black;
 }
 
+.glyphicon{
+	display: none;
+}
+.input-group{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.input-group-btn{
+	position: relative;
+	padding-top: 10px;
+}
+
+.btn-default {
+	border-radius: 5px !important;
+	background-color: black;
+	color: white;
+}
+
+.form-control{
+	width: 98% !important;
+	position: relative !important;
+	float: right !important;
+	border-radius: 5px !important;
+}
 
 .SI-FILES-STYLIZED label.cabinet
 {
@@ -88,4 +113,16 @@ input[type=text]:focus,textarea:focus {
 	opacity: 0;
 	-moz-opacity: 0;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#successmessage{
+	color: green;
+}
+
+#failmessage{
+	color: red;
+}
+
+.submitmessage{
+	margin-bottom: 10px;
 }

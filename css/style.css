@@ -12,6 +12,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-family: 'OpenSans-Regular';
     src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'chaapaarak';
+    src: local('chaapaarak'),
+    url('../fonts/chaapaarak/chaapaarak.eot') format('eot'),
+    url('../fonts/chaapaarak/chaapaarak.woff') format('woff'),
+    url('../fonts/chaapaarak/chaapaarak.svg') format('svg'),
+    url('../fonts/chaapaarak/chaapaarak.ttf') format('truetype');
+}
+*{
+    font-family: chaapaarak, 'chaapaarak', Serif !important;
+}
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -805,10 +816,15 @@ p span.overline{
 	color:#fff;
 }
 .login-right form {
+    margin-top: 17px;
 	padding: 1em 0;
 }
 .login-right form div {
 	padding: 0 0 2em 0;
+}
+.login-right form #loginops {
+    direction: ltr !important;
+    width: 96%;
 }
 .login-right span {
 	color: #999;
@@ -851,7 +867,7 @@ p span.overline{
 }
 .register-top-grid div, .register-bottom-grid div {
 	width: 48%;
-	float: left;
+	float: right;
 	margin: 10px 0;
 }
 .register-top-grid span, .register-bottom-grid span {
@@ -938,6 +954,7 @@ p span.overline{
 }
 .register-but{
 	margin-top:1em;
+    float: left;
 }
 .register-but form input[type="submit"] {
 	border: 2px solid #000;

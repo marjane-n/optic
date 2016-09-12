@@ -216,9 +216,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         }
         var TCallBack = function (data) {
             console.log(data);
+            CallBack(data);
         };
         $.ajax({
-            url: "/order.php",
+            url: "./order.php",
             type: "POST",
             data: Temp,
             mimeTypes: "multipart/form-data",

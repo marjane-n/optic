@@ -877,9 +877,10 @@ p span.overline{
 	display: block;
 	text-transform: uppercase;
 }
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+.register-top-grid input[type="text"], .register-bottom-grid input[type="text"],
+.register-top-grid input[type="password"], .register-bottom-grid input[type="password"]{
 	border: 1px solid #555;
-	outline-color:#FD9F3E;
+	outline-color:#A6C8FF;
 	width: 96%;
 	font-size: 1em;
 	padding: 0.5em;
@@ -956,6 +957,12 @@ p span.overline{
 	margin-top:1em;
     float: left;
 }
+ #successful{
+     color: green;
+ }
+ #failed1 , #failed2{
+     color: red;
+ }
 .register-but form input[type="submit"] {
 	border: 2px solid #000;
 	color: #000;

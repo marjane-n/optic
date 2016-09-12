@@ -1,96 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd56e29a-9ff8-4bc1-8896-2155f620d83a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/Corben-Regular.ttf" afterPath="$PROJECT_DIR$/fonts/Corben-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular.ttf" afterPath="$PROJECT_DIR$/fonts/OpenSans-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Searchfileicon.png" afterPath="$PROJECT_DIR$/images/Searchfileicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/b-arrow.png" afterPath="$PROJECT_DIR$/images/b-arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/b1.jpg" afterPath="$PROJECT_DIR$/images/b1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/b2.jpg" afterPath="$PROJECT_DIR$/images/b2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/b3.jpg" afterPath="$PROJECT_DIR$/images/b3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/b4.jpg" afterPath="$PROJECT_DIR$/images/b4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/b6.jpg" afterPath="$PROJECT_DIR$/images/b6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/b7.jpg" afterPath="$PROJECT_DIR$/images/b7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/c1.jpeg" afterPath="$PROJECT_DIR$/images/c1.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/c2.jpeg" afterPath="$PROJECT_DIR$/images/c2.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/c3.jpg" afterPath="$PROJECT_DIR$/images/c3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/close_1.png" afterPath="$PROJECT_DIR$/images/close_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/do.png" afterPath="$PROJECT_DIR$/images/do.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f1.png" afterPath="$PROJECT_DIR$/images/f1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f2.png" afterPath="$PROJECT_DIR$/images/f2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f3.png" afterPath="$PROJECT_DIR$/images/f3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f4.png" afterPath="$PROJECT_DIR$/images/f4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g1.png" afterPath="$PROJECT_DIR$/images/g1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g2.png" afterPath="$PROJECT_DIR$/images/g2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g3.png" afterPath="$PROJECT_DIR$/images/g3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g4.png" afterPath="$PROJECT_DIR$/images/g4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g5.jpg" afterPath="$PROJECT_DIR$/images/g5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g6.jpg" afterPath="$PROJECT_DIR$/images/g6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g7.jpg" afterPath="$PROJECT_DIR$/images/g7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/g8.jpg" afterPath="$PROJECT_DIR$/images/g8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/images.jpg" afterPath="$PROJECT_DIR$/images/images.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/img-sprite.png" afterPath="$PROJECT_DIR$/images/img-sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m1.jpg" afterPath="$PROJECT_DIR$/images/m1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m2.jpg" afterPath="$PROJECT_DIR$/images/m2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m3.jpg" afterPath="$PROJECT_DIR$/images/m3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m4.jpg" afterPath="$PROJECT_DIR$/images/m4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m5.jpg" afterPath="$PROJECT_DIR$/images/m5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m6.jpg" afterPath="$PROJECT_DIR$/images/m6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m7.jpg" afterPath="$PROJECT_DIR$/images/m7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m8.jpg" afterPath="$PROJECT_DIR$/images/m8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/m9.jpg" afterPath="$PROJECT_DIR$/images/m9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/p2.png" afterPath="$PROJECT_DIR$/images/p2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/search.png" afterPath="$PROJECT_DIR$/images/search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/searchdir.jpg" afterPath="$PROJECT_DIR$/images/searchdir.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/searchfile.png" afterPath="$PROJECT_DIR$/images/searchfile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/si.jpg" afterPath="$PROJECT_DIR$/images/si.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/si1.jpg" afterPath="$PROJECT_DIR$/images/si1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/si2.jpg" afterPath="$PROJECT_DIR$/images/si2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/star.png" afterPath="$PROJECT_DIR$/images/star.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tick1.png" afterPath="$PROJECT_DIR$/images/tick1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web.iml" afterPath="$PROJECT_DIR$/.idea/web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.html" afterPath="$PROJECT_DIR$/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/flexslider.css" afterPath="$PROJECT_DIR$/css/flexslider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/form.css" afterPath="$PROJECT_DIR$/css/form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery-ui.css" afterPath="$PROJECT_DIR$/css/jquery-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/owl.carousel.css" afterPath="$PROJECT_DIR$/css/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-3.1.1.min.js" afterPath="$PROJECT_DIR$/js/bootstrap-3.1.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-filestyle.min.js" afterPath="$PROJECT_DIR$/js/bootstrap-filestyle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/classie.js" afterPath="$PROJECT_DIR$/js/classie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/imagezoom.js" afterPath="$PROJECT_DIR$/js/imagezoom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/js/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/js/jquery.flexslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.jscrollpane.min.js" afterPath="$PROJECT_DIR$/js/jquery.jscrollpane.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.mousewheel.js" afterPath="$PROJECT_DIR$/js/jquery.mousewheel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/owl.carousel.js" afterPath="$PROJECT_DIR$/js/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/simpleCart.min.js" afterPath="$PROJECT_DIR$/js/simpleCart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/uisearch.js" afterPath="$PROJECT_DIR$/js/uisearch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order.html" afterPath="$PROJECT_DIR$/order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products.html" afterPath="$PROJECT_DIR$/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsiveform.css" afterPath="$PROJECT_DIR$/responsiveform.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsiveform1.css" afterPath="$PROJECT_DIR$/responsiveform1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsiveform2.css" afterPath="$PROJECT_DIR$/responsiveform2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsiveform3.css" afterPath="$PROJECT_DIR$/responsiveform3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.html" afterPath="$PROJECT_DIR$/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w3layouts-License.txt" afterPath="$PROJECT_DIR$/w3layouts-License.txt" />
-    </list>
+    <list default="true" id="cd56e29a-9ff8-4bc1-8896-2155f620d83a" name="Default" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -112,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="order.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="288" column="105" selection-start-line="288" selection-start-column="105" selection-end-line="288" selection-end-column="105" />
+            <state relative-caret-position="519">
+              <caret line="233" column="5" selection-start-line="233" selection-start-column="5" selection-end-line="233" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -138,8 +49,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1048">
-              <caret line="322" column="6" selection-start-line="260" selection-start-column="0" selection-end-line="322" selection-end-column="6" />
+            <state relative-caret-position="283">
+              <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -175,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -377,12 +288,12 @@
       <workItem from="1473578428764" duration="9044000" />
       <workItem from="1473588134378" duration="96000" />
       <workItem from="1473594102184" duration="1846000" />
-      <workItem from="1473674553427" duration="12394000" />
+      <workItem from="1473674553427" duration="13572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49441000" />
+    <option name="totallyTimeSpent" value="50619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-744" width="1301" height="744" extended-state="6" />
@@ -604,25 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="288" column="105" selection-start-line="288" selection-start-column="105" selection-end-line="288" selection-end-column="105" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1048">
-          <caret line="322" column="6" selection-start-line="260" selection-start-column="0" selection-end-line="322" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -652,6 +544,25 @@
         <state relative-caret-position="187">
           <caret line="958" column="0" selection-start-line="958" selection-start-column="0" selection-end-line="958" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="233" column="5" selection-start-line="233" selection-start-column="5" selection-end-line="233" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

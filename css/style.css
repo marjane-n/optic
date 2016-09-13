@@ -823,8 +823,32 @@ p span.overline{
 	padding: 0 0 2em 0;
 }
 .login-right form #loginops {
-    direction: ltr !important;
     width: 96%;
+    height: 20px;
+}
+
+.login-right form #loginops input{
+    float: left;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 1em;
+    padding: 0.7em 1.2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    text-transform: uppercase;
+    outline:none;
+    background-color: #fff;
+}
+.login-right form #loginops :hover{
+    background: #000;
+    color: #fff;
+}
+#logfailed{
+    float: right;
+    height: 100%;
 }
 .login-right span {
 	color: #999;
@@ -833,7 +857,7 @@ p span.overline{
 	display: block;
 	text-transform: uppercase;
 }
-.login-right input[type="text"] {
+.login-right input[type="text"] , .login-right input[type="password"]{
 	border: 1px solid #555;
 	outline-color:#08538C;
 	width: 96%;
@@ -877,9 +901,10 @@ p span.overline{
 	display: block;
 	text-transform: uppercase;
 }
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+.register-top-grid input[type="text"], .register-bottom-grid input[type="text"],
+.register-top-grid input[type="password"], .register-bottom-grid input[type="password"]{
 	border: 1px solid #555;
-	outline-color:#FD9F3E;
+	outline-color:#A6C8FF;
 	width: 96%;
 	font-size: 1em;
 	padding: 0.5em;
@@ -955,7 +980,26 @@ p span.overline{
 .register-but{
 	margin-top:1em;
     float: left;
+    width: 10%;
+    height: 35px;
 }
+.register-but input{
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 100%;
+    outline: none;
+    font-size: 20px;
+}
+.message{
+    float: right;
+}
+ #successful{
+     color: green;
+ }
+ #failed1 , #failed2{
+     color: red;
+ }
 .register-but form input[type="submit"] {
 	border: 2px solid #000;
 	color: #000;

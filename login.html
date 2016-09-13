@@ -223,6 +223,58 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--header-->
 <!--contact-->
+<script language="JavaScript">
+    function login(Params, CallBack) {
+        var Temp = new FormData();
+        for (var k in Params) {
+            console.log(k);
+            console.log(Params[k]);
+            Temp.append(k, Params[k]);
+        }
+        var TCallBack = function (data) {
+            console.log(data);
+            CallBack(data);
+        };
+        $.ajax({
+            url: "./login.php",
+            type: "POST",
+            data: Temp,
+            mimeTypes: "multipart/form-data",
+            contentType: false,
+            cache: false,
+            processData: false,
+            success: function (data) {
+                TCallBack(data);
+            }, error: function () {
+                console.log("failed");
+            }
+        });
+    }
+
+    function loginUser() {
+        if (document.getElementById("pass").value.length == 0 || document.getElementById("uname").value.length == 0) {
+            document.getElementById("logfailed").style.display = 'block';
+        }
+        else {
+            var regparams = {
+                username: document.getElementById("uname").value,
+                password: document.getElementById("pass").value
+            };
+            login(regparams, function (data) {
+                console.log(data);
+                setTimeout(function () {
+                    document.getElementById("uname").value = "";
+                    document.getElementById("pass").value = "";
+                }, 3000);
+
+            });
+        }
+        setTimeout(function () {
+            document.getElementById("logfailed").style.display = 'none';
+        }, 3000);
+
+    }
+</script>
 <div class="content">
     <div class="main-1">
         <div class="container">
@@ -236,18 +288,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="col-md-6 login-right">
                         <h2>حساب کاربری دارید؟</h2>
-                        <form>
+                        <form action="" method="post" enctype="multipart/form-data">
                             <div>
-                                <span>ایمیل<label>*</label></span>
-                                <input type="text">
+                                <span>نام کاربری<label>*</label></span>
+                                <input type="text" id="uname">
                             </div>
                             <div>
                                 <span>رمز عبور<label>*</label></span>
-                                <input type="text">
+                                <input type="password" id="pass">
                             </div>
                             <div id="loginops">
-                                <a class="forgot" href="#">رمز عبور خود را فراموش کرده اید؟</a>
-                                <input type="submit" value="ورود">
+                                <p id="logfailed" style="display: none; color: red">نام کاربری یا رمز عبور نادرست است.</p>
+                                <input type="button" value="ورود" onclick="loginUser()">
                             </div>
                         </form>
                     </div>
@@ -257,6 +309,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
 </div>
+
+
 <!-- login -->
 <div class="subscribe">
     <div class="container">

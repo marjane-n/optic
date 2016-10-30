@@ -1,4 +1,38 @@
 <?php
+function SendEmail($message, $filename) {
+    $path = "./orders/";
+    $file = $path . $filename;
+    $content = file_get_contents( $file);
+    $content = chunk_split(base64_encode($content));
+    $uid = md5(uniqid(time()));
+    $name = basename($file);
+    $from_mail = "info@iranoptics.com";
+    $replyto = $from_mail;
+// header
+    $header  = "From: IranOptics.ir " . $from_mail . ">\r\n";
+    $header .= "Reply-To: " . $replyto . "\r\n";
+    $header .= "MIME-Version: 1.0\r\n";
+    $header .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
+
+// message & attachment
+    $nmessage = "--".$uid."\r\n";
+    $nmessage .= "Content-type:text/plain; charset=windows-1256\r\n";
+    $nmessage .= "Content-Transfer-Encoding: 16bit\r\n\r\n";
+    $nmessage .= $message."\r\n\r\n";
+    $nmessage .= "--".$uid."\r\n";
+    $nmessage .= "Content-Type: application/octet-stream; name=\"".$filename."\"\r\n";
+    $nmessage .= "Content-Transfer-Encoding: base64\r\n";
+    $nmessage .= "Content-Disposition: attachment; filename=\"".$filename."\"\r\n\r\n";
+    $nmessage .= $content."\r\n\r\n";
+    $nmessage .= "--".$uid."--";
+    $mailto = "msdpcalali@gmail.com";
+    $subject = "order";
+    if (mail($mailto, $subject, $nmessage, $header)) {
+        return true; // Or do something here
+    } else {
+        return false;
+    }
+}
 function SaveFile($filename, $T)
 {
     if (isset($_FILES[$filename])) {
@@ -22,14 +56,14 @@ $curT = (string)time();
 if (isset($_POST["name"]) && isset($_POST["contact"]) && isset($_POST["explanation"])) {
     $IN = SaveFile("datafile", $curT);
     $F = fopen(dirname(__FILE__) . "/orders/" . $curT . "-order.txt", "w");
-    fwrite($F, "نام : " . $_POST["name"] . "\n");
-    fwrite($F, "موبایل : " . $_POST["contact"] . "\n");
+    $tempStr = "نام : " . $_POST["name"] . "\n" . "موبایل : " . $_POST["contact"] . "\n";
     if (isset($_POST["email"])) {
-        fwrite($F, "ایمیل : " . $_POST["email"] . "\n");
+        $tempStr .= "ایمیل : " . $_POST["email"] . "\n";
     }
-    fwrite($F, "شرح : " . $_POST["explanation"] . "\n");
-    fwrite($F, "ضمیمه : " . $IN . "\n");
+    $tempStr .= "شرح : " . $_POST["explanation"] . "\n" . "ضمیمه : " . $IN . "\n";
+    fwrite($F, $tempStr);
     fclose($F);
+    SendEmail($tempStr, $IN);
     echo "Success";
 } else {
     echo "Failed";

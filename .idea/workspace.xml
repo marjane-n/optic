@@ -4,22 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/single.php" line="161" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd56e29a-9ff8-4bc1-8896-2155f620d83a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/products.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/single.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.html" afterPath="$PROJECT_DIR$/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/form.css" afterPath="$PROJECT_DIR$/css/form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order.php" afterPath="$PROJECT_DIR$/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsiveform.css" afterPath="$PROJECT_DIR$/responsiveform.css" />
-    </list>
+    <list default="true" id="cd56e29a-9ff8-4bc1-8896-2155f620d83a" name="Default" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -356,15 +341,15 @@
       <workItem from="1475570561830" duration="600000" />
       <workItem from="1476559575183" duration="449000" />
       <workItem from="1477557954200" duration="261000" />
-      <workItem from="1477811761139" duration="3639000" />
+      <workItem from="1477811761139" duration="3697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119579000" />
+    <option name="totallyTimeSpent" value="119637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="21" width="1366" height="747" extended-state="1" />
+    <frame x="0" y="21" width="1366" height="747" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24450952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

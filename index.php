@@ -30,7 +30,8 @@ include "header.php";
         <div class="banner-grids">
             <div class="col-md-12 banner-grid">
                 <div class="main-page-brand"><img src="images/logo.jpg"/></div>
-                <h2 style="font-size: 3em;">تعمین کننده قطعات اپتیکی با بهترین قیمت و نازلترین قیمت و کمترین زمان</h2>
+                <div class="main-page-brand"><img src="images/Text.png"/></div>
+<!--                <h2 style="font-size: 3em;">تأمین کننده قطعات اپتیکی با بهترین قیمت و نازلترین قیمت و کمترین زمان</h2>-->
                 <!--<p>یه توضیح بیشتری اگه داره که اینجا نشون داه بشه یه توضیح بیشتری اگه داره که اینجا نشون داه بشه یه
                     توضیح بیشتری اگه داره که اینجا نشون داه بشه </p>-->
                 <p></p>

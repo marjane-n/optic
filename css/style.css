@@ -3306,6 +3306,7 @@ tr:nth-child(even) {
 .main-page-brand {
     max-width: 100%;
     margin: auto;
+    opacity: 0.6;
 }
 
 .main-page-brand img {
